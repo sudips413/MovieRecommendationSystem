@@ -1,0 +1,61 @@
+body{
+    font-family: monospace;
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(71, 71, 190);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.recommend{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.recommend__movies{
+    margin-top: 20px;
+}
+input[type="text"]{
+    width: 300px;
+    height: 30px;
+    border: 2px solid rgb(71, 71, 190);
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 15px;
+    outline: none;
+    margin-bottom: 20px;
+}
+button{
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(71, 71, 190);
+    border-radius: 5px;
+    background-color: rgb(71, 71, 190);
+    color: white;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+    margin: 2px 0;
+    font-size: 20px;
+    color: rgb(104, 48, 159);
+}
+.recommended__movies__list{
+    width: 50%;
+    /* center the division */
+    margin: 0 auto;
+
+    height: 100%;
+    box-shadow: inset 0 0 10px rgb(121, 121, 150);
+}
+li{
+    margin-left: 20px;
+}
